@@ -120,7 +120,7 @@ class BusinessCardView: UIScrollView {
     // MARK: - Scores section setup
     
     private func createScores() {
-        self.content!.scores.forEach {
+        self.content!.scores.forEach{ score in
             let scoreView = ScoreView()
             mainStackView.addArrangedSubview(scoreView)
             
